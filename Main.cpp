@@ -25,7 +25,7 @@ int main()
         }
     }
 
-    for (int = 0; i < 8; i++)
+    for (int = 0; i < 8; i++)           //prints matrix (test)
     {
         for (int j = 0; j < 8; j++)
         {
