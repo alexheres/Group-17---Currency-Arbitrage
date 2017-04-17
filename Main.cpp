@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    float** matrix = new float[8];    //initializes nxn matrix to hold exchange rates
+    float** matrix = new float*[8];    //initializes nxn matrix to hold exchange rates
     for(int i = 0; i < 8; i++)
     {
         matrix[i] = new float[8];
@@ -20,12 +20,12 @@ int main()
         {
             for (int j = 0; j < 8; j++)
             {
-                file >> matirx[i][j];
+                file >> matrix[i][j];
             }
         }
     }
 
-    for (int = 0; i < 8; i++)           //prints matrix (test)
+    for (int i = 0; i < 8; i++)           //prints matrix (test)
     {
         for (int j = 0; j < 8; j++)
         {
