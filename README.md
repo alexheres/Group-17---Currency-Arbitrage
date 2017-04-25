@@ -5,5 +5,5 @@ As of 4/15/2017 the program:
   - prints out the matrix with their newly assigned values
 
 As of 4/25/2017 the program:
-  - generates a simple weighted graph (there might be bugs associated with the edge weight assignments). 
+  - generates a simple weighted graph (there might be bugs associated with the edge weight assignments). Weights are read from a file.
   - no longer uses any of the previous matrix code. This is because of our decision in using a weighted graph in place of a matrix.
